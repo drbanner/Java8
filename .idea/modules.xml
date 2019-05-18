@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollectionsJava8/CollectionsJava8.iml" filepath="$PROJECT_DIR$/CollectionsJava8/CollectionsJava8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8.iml" filepath="$PROJECT_DIR$/Java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8Examples/Java8Examples.iml" filepath="$PROJECT_DIR$/Java8Examples/Java8Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PredicateJava8/PredicateJava8.iml" filepath="$PROJECT_DIR$/PredicateJava8/PredicateJava8.iml" />
     </modules>
   </component>
 </project>
