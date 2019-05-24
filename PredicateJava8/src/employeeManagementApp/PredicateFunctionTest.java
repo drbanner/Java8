@@ -23,7 +23,7 @@ class Employee
         return s;
     }
 }
-public class Test
+public class PredicateFunctionTest
 {
     public static void main(String[] args)
     {

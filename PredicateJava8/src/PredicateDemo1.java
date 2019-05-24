@@ -1,20 +1,20 @@
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class PredicateDemo1 {
+public class PredicateDemo1
+{
 
     public static void main(String[] args)
     {
 
-        Predicate<Integer> predicate1 = i -> i>50;
+        Predicate<Integer> predicate1 = i -> i > 50;
 
         System.out.println(predicate1.test(500));
         System.out.println(predicate1.test(10));
 
-        Predicate<String> predicate2 =s -> s.length()>5;
+        Predicate<String> predicate2 = s -> s.length() > 5;
         System.out.println(predicate2.test("jane"));
         System.out.println(predicate2.test("janeDoe"));
 
@@ -26,10 +26,6 @@ public class PredicateDemo1 {
 
         List<String> list1 = new ArrayList<>();
         System.out.println(predicate3.test(list1));
-
-
-
-
 
 
     }
